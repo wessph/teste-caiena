@@ -1,24 +1,19 @@
-# github
+# Teste caiena
 
-## Project setup
+## Rodar projeto com o docker
 ```
-yarn install
-```
+yarn ou npm install
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Acessar pasta /docker/dev
 
-### Compiles and minifies for production
-```
-yarn build
+Executar docker-compose build e depois docker-compose up -d
+
 ```
 
-### Lints and fixes files
+## Rodar o projeto com npm ou yarn
 ```
-yarn lint
-```
+yarn ou npm install
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Após isso executar yarn server ou npm run serve
+
+```
