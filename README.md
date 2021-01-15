@@ -1,19 +1,19 @@
-# Teste caiena
-
 ## Rodar projeto com o docker
 ```
-yarn ou npm install
+1- yarn ou npm install
 
-Acessar pasta /docker/dev
+2- Acessar pasta /docker/dev
 
-Executar docker-compose build e depois docker-compose up -d
+3- docker-compose build
+
+4- docker-compose up -d
 
 ```
 
 ## Rodar o projeto com npm ou yarn
 ```
-yarn ou npm install
+1- yarn ou npm install
 
-Após isso executar yarn server ou npm run serve
+2- yarn server ou npm run serve
 
 ```
