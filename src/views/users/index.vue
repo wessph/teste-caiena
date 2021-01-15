@@ -58,6 +58,12 @@ export default {
         this.row = 100
         this.users = response.data
         this.loading = false
+      }).catch(error =>{ 
+        this.$swal({
+          icon: 'error',
+          title: 'Algo deu errado na busca!',
+          text: error.message
+        })
       })
     }
   },
@@ -81,7 +87,7 @@ export default {
         }).catch(error =>{
           this.$swal({
             icon: 'error',
-            title: 'Algo deu errado!',
+            title: 'Algo deu errado na busca!',
             text: error.message
           })
         })
